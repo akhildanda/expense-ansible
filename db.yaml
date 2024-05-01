@@ -28,6 +28,6 @@
 
   - name: print output
     ansible.builtin.debug:
-     msg: "output: {{ mysql_connection_output }}"   
+     msg: "output: {{mysql_connection_output}}"   
      
 
