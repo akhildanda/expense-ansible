@@ -3,7 +3,7 @@
   become: yes
   vars:
    login_host: db.akhildev.online
-  task:
+  tasks:
   - name: Install MySQL server
     ansible.builtin.dnf:
     state: latest
