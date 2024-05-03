@@ -1,2 +1,8 @@
 [db]
 db.akhildev.online
+
+[backend]
+backend.akhildev.online
+
+[frontend]
+akhildev.online
