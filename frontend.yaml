@@ -1,9 +1,9 @@
 - name: configure backend server
-  hosts: backend
   become: yes
+  hosts: frontend
   tasks:
   - name: Install ngnix
-    ansible.builtin.dnf: dnf install nginx -y 
+    ansible.builtin.dnf: 
      name: nginx
      state: latest
 
